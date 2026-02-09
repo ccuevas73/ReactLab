@@ -35,7 +35,7 @@ function Main({dishes, openStatus, onStatus}){
       <h2>Welcome to this amazing place! {openStatus ? "Open" : "Closed"}</h2>
     </div>
     <main>
-      <img src ={chef} height={200} alt="a photo of a smiling chef owner"/>
+      <img src ={chef} height={200} alt="a photo of a smiling chef owner!"/>
       <ul>
         {dishes.map((dish) => (
           <li key={dish.id} style={{listStyleType: "none"}}>{dish.title}
